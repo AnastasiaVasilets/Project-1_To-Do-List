@@ -1,0 +1,27 @@
+{
+  "name": "project-1_to-do-list",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaVasilets/Project-1_To-Do-List.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiaVasilets/Project-1_To-Do-List/issues"
+  },
+  "homepage": "https://github.com/AnastasiaVasilets/Project-1_To-Do-List#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "gulp-concat": "^2.6.1",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "server": "^1.0.37"
+  }
+}

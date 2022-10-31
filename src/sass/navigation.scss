@@ -1,0 +1,134 @@
+#navigation {
+    width: 25%;
+    background-color: #C1DEF1;
+    font-size: 32px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    transition: 0.6s;
+    position: sticky;
+    height: min-content;
+}
+
+.nav {
+    
+}
+
+.nav-list--item {
+    height: 80px;
+    text-transform: uppercase;
+    text-align: end;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 30px;
+    padding-right: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.nav-list-logo-1, .nav-list-logo-2, .nav-list-logo-3, .nav-list-logo-4 {
+    width: 40px;
+    height: 40px;
+}
+
+.nav i {
+    color: #52B6EE;
+}
+
+.nav-list-name {
+    color: #eeeff0;
+}
+
+.nav-list--item:hover {
+    box-shadow: 0px 0px 10px #52b5ee;
+    transition: 0.4s;
+}
+
+.nav-list--item.active {
+    background-color: #F5F5F5;
+    .nav-list-name{
+        color: #52B6EE;
+    }
+    
+}
+
+.calendar-wrapper {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #dadada;
+    background: #e6e6e6;
+    font-family: 'Roboto';
+}
+
+table {
+    width: 100%;
+    color: #9E9C9C;
+}
+
+td {
+    height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    width: 14.28571429%;
+}
+
+thead td {
+    border: none;
+    color: #52B6EE;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+td.not-current {
+    background-color: #c6c6c6;
+}
+
+td.today {
+    color: #fff;
+    background-color: #52B6EE;
+    border-radius: 50%;
+}
+
+#btnPrev {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#btnPrev:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    padding-right: 4px;
+}
+
+#btnNext {
+    float: right;
+    margin-bottom: 10px;
+}
+
+#btnNext:after {
+    content: '\f105';
+    font-family: FontAwesome;
+    padding-left: 4px;
+}
+
+#btnPrev,
+#btnNext {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+#btnPrev:hover,
+#btnNext:hover {
+  color: #52B6EE;
+}

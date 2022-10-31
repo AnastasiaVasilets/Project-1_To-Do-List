@@ -1,0 +1,142 @@
+.done--item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.done_tasks__name {
+    color: #52B6EE;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.done_tasks__implementer {
+    color: #87C1E2;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+}
+
+.done_tasks__description {
+    color: #908F8F;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.done_tasks__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.done_tasks__dead-line {
+    background-color: #C1DEF1;
+    border-radius: 70px;
+    padding: 2px 5px;
+    text-align: end;
+}
+
+.done_tasks__dead-line span{
+    color: #908F8F;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.done_tasks__buttons {
+    display: flex;
+    justify-content:end;
+    margin: 0 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.done__buttons{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.still_in-progress__btn{
+    border: none;
+    background-color: none;
+}
+
+.still_in-progress__btn i{
+    color: #52B6EE;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.still_in-progress__btn i:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 5px #908f8f84;
+}
+
+.btn_delete_done {
+    border: none;
+    background-color: none;
+    margin-right: 15px;
+}
+
+.btn_delete_done i {
+    color: #F50707;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn_delete_done i:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 5px #908f8f84;
+    background-color: #eeebeb84;
+}
+
+.btn_still-in-progress {
+    border: none;
+    background-color: none;
+    margin-right: 15px;
+}
+
+.btn_still-in-progress i {
+    color: #52B6EE;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn_still-in-progress i:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 5px #aba9a984;
+    background-color: #eeebeb84;
+}
+
+.btn_delete__done {
+    border: none;
+    background-color: none;
+    margin-right: 15px;
+}
+
+.btn_delete__done i {
+    color: #F50707;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn_delete__done i:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 5px #908f8f84;
+    background-color: #eeebeb84;
+}

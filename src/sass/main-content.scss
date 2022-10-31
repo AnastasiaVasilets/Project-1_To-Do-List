@@ -1,0 +1,25 @@
+#main {
+    margin-bottom: 100px;
+}
+
+#main_content__container {
+    padding: 30px 30px 30px 40px;
+}
+
+.add_task, .made_tasks--item, .in_progress_tasks--item, .done--item, .create_note, .note {
+    background-color: #FFFFFF;
+    border-radius: 70px;
+    box-shadow: 0px 0px 15px #929090;
+    width: 900px;
+    margin: 0 auto 20px;
+    padding: 30px 40px;
+}
+
+.main_content--item {
+    display: none;
+}
+
+.main_content--item.active {
+    display: block;
+}
+

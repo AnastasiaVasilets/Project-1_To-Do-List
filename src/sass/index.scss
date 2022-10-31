@@ -1,0 +1,35 @@
+@import './cdn.scss';
+@import './header.scss';
+@import './navigation.scss';
+@import './main-content.scss';
+@import './add_task.scss';
+@import './footer.scss';
+// @import './add_note.scss';
+@import './in_progress.scss';
+@import './done.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  html {
+    background-color: #F5F5F5;
+    font-family: "Raleway", "Cardo" sans-serif;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: row;
+  }

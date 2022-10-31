@@ -1,0 +1,46 @@
+#create_note__form{
+    display: flex;
+    flex-direction: column;
+}
+
+#create_note__form label{
+    color: #52B6EE;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
+
+#create_note__form input{
+    background-color: #F5F5F5;
+    border: none;
+    height: 24px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+#create_note__form input:last-child{
+    margin-bottom: 20px;
+}
+
+.create_note__btn{
+    display: block;
+    width: 300px;
+    height: 55px;
+    background-color: #EDBCC4;
+    color: #FAFAFF;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 70px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.create_note__btn:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 15px #c5c2c2;
+}

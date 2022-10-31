@@ -1,0 +1,195 @@
+.in_progress_tasks--item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.in_progress_tasks__name {
+    color: #52B6EE;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.in_progress_tasks__implementer {
+    color: #87C1E2;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+}
+
+.in_progress_tasks__description {
+    color: #908F8F;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.in_progress_tasks__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.in_progress_tasks__dead-line {
+    background-color: #C1DEF1;
+    border-radius: 70px;
+    padding: 2px 5px;
+    text-align: end;
+}
+
+.in_progress_tasks_dead-line__text {
+    color: #908F8F;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.in_progress_tasks__buttons{
+    display: flex;
+    justify-content:end;
+    margin: 0 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.in_progress__buttons {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.btn_out-of-progress {
+    border: none;
+    background-color: none;
+    margin-right: 15px;
+}
+
+.btn_out-of-progress i {
+    color: #e7f737;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn_delete_in-progress-top {
+    border: none;
+    background-color: none;
+    margin-right: 15px;
+}
+
+.btn_delete_in-progress-top i{
+    color: #F50707;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+// .select_all__span{
+//     color: #52B6EE;
+//     font-family: 'Raleway';
+//     font-weight: 400;
+//     font-size: 22px;
+//     text-decoration: underline;
+//     cursor: pointer;
+// }
+
+// .select_all__span:hover{
+//     transition: 0.3s;
+//     color:#EDBCC4;
+// }
+
+.btn_out-of-progress{
+    border: none;
+    background-color: none;
+}
+
+.btn_out-of-progress_top {
+    border: none;
+    background-color: none;
+}
+
+.done_task__button{
+    border: none;
+    background-color: none;
+}
+
+.done_task__button i{
+    color: #16bd2c;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.done_task__button:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 5px #908f8f84;
+}
+
+.btn_delete_in-progress {
+    border: none;
+    background-color: none;
+    margin-right: 15px;
+}
+
+.btn_delete_in-progress i {
+    color: #F50707;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn_out-of-progress_top i {
+    color: #e7f737;
+    background-color: rgb(249, 249, 249);
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn_out-of-progress_top i:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 5px #908f8f84;
+    background-color: #eeebeb84;
+}
+
+.btn_delete_in-progress i:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 5px #908f8f84;
+    background-color: #eeebeb84;
+}
+
+.done_task__button_in-progress {
+    border: 0;
+    background-color: none;
+    margin-right: 15px;
+}
+
+.done_task__button_in-progress i {
+    color: #16bd2c;
+    background-color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.done_task__button_in-progress i:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 5px #908f8f84;
+    background-color: #eeebeb84;
+}
+
+.btn_out-of-progress i:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 5px #aba9a984;
+    background-color: #eeebeb84;
+}
+
